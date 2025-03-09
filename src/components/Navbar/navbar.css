@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 40px;
+    border-bottom: 2px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.navbar-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.favorites {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.favorites-count {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.heart-icon {
+    color: red;
+}
